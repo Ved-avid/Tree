@@ -27,21 +27,23 @@ So answer = 32
 
 
 
-/**
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-class Solution {
+import java.util.*;
+
+
+ class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+           this.val = val;
+           this.left = left;
+           this.right = right;
+       }
+   }
+
+public class Tree {
     public int rangeSumBST(TreeNode root, int low, int high) {
         
         Set<TreeNode> path = new HashSet<>();

@@ -1,5 +1,33 @@
+/*
+
+Given the root node of a binary search tree and two integers low and high, return the sum of values of all nodes with a value in the inclusive range [low, high].In between the
+path of the element low and High (low and high inclusive)
+
+                         10
+                       /   \
+                      5     15
+                     / \      \
+                    3   7     18
+                     
+Here low = 7 and high = 15
+Therefore Numbers in [7,15]  in path from root to 7 and root to 8 - [7, 10, 15]
+So answer = 32
+
+*/
+
+
+/* -- Ved -- */
+
+
+
+
+
+
+
+
+
+
 /**
- * Definition for a binary tree node.
  * public class TreeNode {
  *     int val;
  *     TreeNode left;
